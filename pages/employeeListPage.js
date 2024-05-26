@@ -18,6 +18,5 @@ exports.employeeListPage = class employeeListPage {
     }
     async clickOnTableRow(value) {
         await this.page.getByText(value).click();
-
     }
 }
